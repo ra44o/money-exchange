@@ -1,7 +1,4 @@
-// PLEASE DON'T change function name
 module.exports = function makeExchange(currency) {
-  // Your code goes here!
-  // Return an object containing the minimum number of coins needed to make change
   let nominals = ['H', 'Q', 'D', 'N', 'P'];
   let coins = [50, 25, 10, 5, 1];
   let exchanged = {};
